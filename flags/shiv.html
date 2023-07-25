@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 2%;
+
+        justify-content: center;
+
+        overflow: hidden;
+      }
+
+      .box-wrapper {
+        height: 100vh;
+
+        width: 100%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        text-align: center;
+      }
+
+      .middle-column {
+        flex-grow: 1;
+
+        display: flex;
+
+        flex-direction: column;
+      }
+
+      .middle-column div {
+        flex-grow: 1;
+
+        margin: 0 6px;
+
+        border: solid 3px black;
+
+        background-color: orange;
+      }
+
+      .middle-column div + div {
+        margin-top: 3px;
+
+        background-color: ghostwhite;
+      }
+
+      .middle-column div + div + div {
+        margin-top: 3px;
+
+        background-color: limegreen;
+      }
+    </style>
+  </head>
+
+  <p>
+    I chose the India flag because I am from India and I thought this could be
+    hard.Also India is 1 of the oldest countries in the world
+  </p>
+  <p style="font-size: 16px"></p>
+
+  <body>
+    <div class="box-wrapper">
+      <div class="middle-column">
+        <div id="box5"></div>
+
+        <div id="box6">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Ashoka_Chakra.svg/1200px-Ashoka_Chakra.svg.png"
+            alt="Chakra"
+            width="110"
+            style="margin-top: 50px; margin-bottom: -130px;"
+          />
+        </div>
+
+        <div id="box7"></div>
+      </div>
+    </div>
+  </body>
+</html>
