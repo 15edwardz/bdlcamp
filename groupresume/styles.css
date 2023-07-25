@@ -1,0 +1,13 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#intro{
+    background-color:azure;
+    border-style: dotted;
+    padding: 20px;
+}
