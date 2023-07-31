@@ -113,14 +113,58 @@
             'Lucida Sans', Arial, sans-serif;
         "
       >
-        Padding
+        Padding and Border
       </h2>
-      <div style="border: 2px solid; padding: 100px">
-        <p style="margin-left: -100px">
-          &lt;----100px----&gt;This element has padding 100px.
+      <div style="border: 2px solid black; padding: 100px">
+        <p style="margin-left: -100px; min-width: 300px">
+          &lt;----100px----&gt;Padding 100px + solid border
         </p>
         <br />
-        &lt;div style="border: 2px solid; padding: 100px;"&gt;&lt;/div&gt;
+        &lt;div style="border: 2px solid black; padding: 100px;"&gt;&lt;/div&gt;
+      </div>
+      <br />
+      <h2
+        style="
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+            'Lucida Sans', Arial, sans-serif;
+        "
+      >
+        Margin
+      </h2>
+      <div style="border: 2px solid; padding: 10px">
+        <div style="border: 2px solid; margin: 100px; min-width: 220px">
+          <p style="margin-left: -100px">
+            &lt;----100px----&gt;This element has margin 100px
+          </p>
+          <br />
+
+          &lt;div style="border: 2px solid; margin: 100px;"&gt;&lt;/div&gt;
+        </div>
+      </div>
+      <h2
+        style="
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+            'Lucida Sans', Arial, sans-serif;
+        "
+      >
+        Basic colour, font and alignment styling
+      </h2>
+      <div style="border: 2px solid; padding: 10px">
+        <pre>
+        body {
+        background-color: lightblue;
+        }
+
+        h1 {
+        color: white;
+        text-align: center;
+        }
+
+        p {
+        font-family: verdana;
+        font-size: 20px;
+        }
+        </pre>
       </div>
     </div>
   </body>
