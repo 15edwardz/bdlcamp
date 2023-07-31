@@ -5,4 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Cheat Sheet</title>
   </head>
+  <body style="background-color: thistle">
+    <h1
+      style="
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+          'Lucida Sans', Arial, sans-serif;
+      "
+    >
+      CSS Cheat Sheet
+    </h1>
+    <h2
+      style="
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+          'Lucida Sans', Arial, sans-serif;
+      "
+    >
+      Linking your Style Sheet
+    </h2>
+    <h3
+      style="
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+          'Lucida Sans', Arial, sans-serif;
+      "
+    >
+      Option One: Adding in the &lt;head&gt; element
+    </h3>
+    <pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+        &lt;head&gt;
+        &lt;style&gt;
+        body {background-color: powderblue;}
+        h1   {color: blue;}
+        p    {color: red;}
+        &lt;/style&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+
+        &lt;h1&gt;This is a heading&lt;/h1&gt;
+        &lt;p&gt;This is a paragraph.&lt;/p&gt;
+
+        &lt;/body&gt;
+    &lt;/html&gt;
+    </pre>
+    <h3
+      style="
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+          'Lucida Sans', Arial, sans-serif;
+      "
+    >
+      Option Two: External Style Sheet (creating a styles.css file in the same
+      folder)
+    </h3>
+    index.html
+    <pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+        &lt;head&gt;
+        &lt;link rel="stylesheet" href="styles.css"&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        
+        &lt;h1&gt;This is a heading&lt;/h1&gt;
+        &lt;p&gt;This is a paragraph.&lt;/p&gt;
+        
+        &lt;/body&gt;
+    &lt;/html&gt;
+  </pre
+    >
+    styles.css
+    <pre>
+    body {
+        background-color: powderblue;
+      }
+      h1 {
+        color: blue;
+      }
+      p {
+        color: red;
+      }</pre
+    >
+    <h2
+      style="
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+          'Lucida Sans', Arial, sans-serif;
+      "
+    >
+      Styling a single HTML element
+    </h2>
+    <pre>
+    &lt;h1 style="color:blue;"&gt;A Blue Heading&lt;/h1&gt;
+
+    &lt;p style="color:red;"&gt;A red paragraph.&lt;/p&gt;
+    </pre>
+  </body>
 </html>
