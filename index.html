@@ -62,6 +62,27 @@
       />
       <h1 class="d-inline" style="display: inline-block">BDL Summer Camp</h1>
     </header>
+    <script src="confetti.js"></script>
+    <script>
+      // for starting the confetti
+
+      const start = () => {
+        setTimeout(function () {
+          confetti.start();
+        }, 1000); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+      };
+
+      //  for stopping the confetti
+
+      const stop = () => {
+        setTimeout(function () {
+          confetti.stop();
+        }, 5000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+      };
+      // after this here we are calling both the function so it works
+      start();
+      stop();
+    </script>
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -166,16 +187,16 @@
                   Flag
                 </a>
                 <a
-                style="
-                  color: rgb(57, 78, 214);
-                  text-decoration: none;
-                  margin-right: 10px;
-                "
-                href="https://www.edwardzhang.dev/bdlcamp/final/sai"
-                target="_blank"
-              >
-                Sai's Webite
-              </a>
+                  style="
+                    color: rgb(57, 78, 214);
+                    text-decoration: none;
+                    margin-right: 10px;
+                  "
+                  href="https://www.edwardzhang.dev/bdlcamp/final/sai"
+                  target="_blank"
+                >
+                  Sai's Webite
+                </a>
               </div>
             </li>
             <li
@@ -321,16 +342,16 @@
                   Resume
                 </a>
                 <a
-                style="
-                  color: rgb(57, 78, 214);
-                  text-decoration: none;
-                  margin-right: 10px;
-                "
-                href="https://www.edwardzhang.dev/bdlcamp/final/syed"
-                target="_blank"
-              >
-                Syed's Webite
-              </a>
+                  style="
+                    color: rgb(57, 78, 214);
+                    text-decoration: none;
+                    margin-right: 10px;
+                  "
+                  href="https://www.edwardzhang.dev/bdlcamp/final/syed"
+                  target="_blank"
+                >
+                  Syed's Webite
+                </a>
               </div>
             </li>
           </ul>
