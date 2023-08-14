@@ -19,3 +19,30 @@ a:hover {
     display: none;
   }
 }
+
+.text-animation {
+  animation-name: change;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+.text-animation {
+  animation-name: change;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes change {
+  0%    {color: #4169E1;}  /* Royal Blue */
+  25%   {color: #6495ED;}  /* Cornflower Blue */
+  50%   {color: #6A5ACD;}  /* Slate Blue */
+  75%   {color: #483D8B;}  /* Dark Slate Blue */
+  100%  {color: #4169E1;}  /* Royal Blue (same as 0%) */
+}
+
+
+
+
+
+
+
